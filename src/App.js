@@ -56,10 +56,10 @@ function App() {
     <Switch>
     {/* /users --> Component 1
         /users/home --> Component 2 */}
-          <Route exact path="/about">
-          <About mode={mode} />
-          </Route>
-          <Route exact path="/">
+          {/* <Route exact path="/about"> */}
+          {/* <About mode={mode} /> */}
+          {/* </Route> */}
+          <Route  path="#">
             <TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>
           </Route>
     </Switch>
